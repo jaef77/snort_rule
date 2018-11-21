@@ -4,4 +4,4 @@ alert tcp any any -> any 80 (msg:"Test gilgil DETECTED"; content:"GET /"; conten
 alert tcp any any -> any 80 (msg:"Snoopspy DETECTED"; content:"GET /"; content:"Host: snoopspy.com"; sid:10004; rev:1;)
 alert tcp any any -> any 443 (msg:"Naver DETECTED"; content:"naver.com"; sid:10005; rev:1;)
 alert tcp any any -> any 443 (msg:"Facebook Detected"; content:"facebook.com"; sid:10006; rev:1;)
-alert tcp any any -> any 443 (msg:"Twitter DEtected"; content:"twitter.com"; sid:10007; rev:1;)
+alert tcp any any -> any 443 (msg:"Twitter Detected"; content:"twitter.com"; sid:10007; rev:1;)
